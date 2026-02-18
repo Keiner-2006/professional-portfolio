@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1117"/>
+      <stop offset="100%" style="stop-color:#1a1f2e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2433"/>
+      <stop offset="100%" style="stop-color:#161b27"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" fill="url(#bg)"/>
+
+  <!-- Navbar -->
+  <rect x="0" y="0" width="900" height="48" fill="#161b27" opacity="0.95"/>
+  <rect x="0" y="47" width="900" height="1" fill="#10b981" opacity="0.3"/>
+  <!-- Logo -->
+  <rect x="20" y="14" width="20" height="20" rx="4" fill="url(#green)"/>
+  <text x="48" y="28" font-family="monospace" font-size="13" font-weight="bold" fill="#f1f5f9">Ferretería</text>
+  <text x="48" y="40" font-family="monospace" font-size="8" fill="#10b981">AI-Powered Store</text>
+  <!-- Nav links -->
+  <text x="200" y="28" font-family="sans-serif" font-size="11" fill="#94a3b8">Dashboard</text>
+  <text x="280" y="28" font-family="sans-serif" font-size="11" fill="#10b981">Inventario</text>
+  <text x="360" y="28" font-family="sans-serif" font-size="11" fill="#94a3b8">Pedidos</text>
+  <text x="430" y="28" font-family="sans-serif" font-size="11" fill="#94a3b8">Reportes</text>
+  <!-- Cart + user -->
+  <rect x="820" y="12" width="60" height="24" rx="12" fill="#10b981" opacity="0.15"/>
+  <text x="835" y="28" font-family="sans-serif" font-size="11" fill="#10b981">🛒 3</text>
+  <circle cx="870" cy="24" r="10" fill="#1e2433" stroke="#10b981" stroke-width="1"/>
+  <text x="865" y="28" font-family="sans-serif" font-size="10" fill="#10b981">KA</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="48" width="180" height="452" fill="#13182a"/>
+  <rect x="179" y="48" width="1" height="452" fill="#1e2433"/>
+  <!-- Sidebar items -->
+  <rect x="10" y="68" width="160" height="32" rx="6" fill="#10b981" opacity="0.15"/>
+  <text x="30" y="89" font-family="sans-serif" font-size="11" fill="#10b981">📦 Inventario</text>
+  <text x="30" y="122" font-family="sans-serif" font-size="11" fill="#64748b">🛒 Pedidos</text>
+  <text x="30" y="152" font-family="sans-serif" font-size="11" fill="#64748b">📊 Reportes</text>
+  <text x="30" y="182" font-family="sans-serif" font-size="11" fill="#64748b">👥 Clientes</text>
+  <text x="30" y="212" font-family="sans-serif" font-size="11" fill="#64748b">⚙️ Config</text>
+  <!-- AI Badge -->
+  <rect x="10" y="420" width="160" height="60" rx="8" fill="#1e2433" stroke="#10b981" stroke-width="1" opacity="0.8"/>
+  <text x="20" y="440" font-family="monospace" font-size="9" fill="#10b981">✦ Gemini AI</text>
+  <text x="20" y="455" font-family="sans-serif" font-size="8" fill="#64748b">Recomendaciones</text>
+  <text x="20" y="468" font-family="sans-serif" font-size="8" fill="#64748b">activas: 12</text>
+
+  <!-- Stats row -->
+  <rect x="190" y="58" width="130" height="60" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <text x="205" y="78" font-family="sans-serif" font-size="9" fill="#64748b">Ventas Hoy</text>
+  <text x="205" y="98" font-family="monospace" font-size="18" font-weight="bold" fill="#f1f5f9">$4,280</text>
+  <text x="205" y="112" font-family="sans-serif" font-size="8" fill="#10b981">↑ +12.5%</text>
+
+  <rect x="335" y="58" width="130" height="60" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <text x="350" y="78" font-family="sans-serif" font-size="9" fill="#64748b">Productos</text>
+  <text x="350" y="98" font-family="monospace" font-size="18" font-weight="bold" fill="#f1f5f9">1,248</text>
+  <text x="350" y="112" font-family="sans-serif" font-size="8" fill="#10b981">↑ 8 nuevos</text>
+
+  <rect x="480" y="58" width="130" height="60" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <text x="495" y="78" font-family="sans-serif" font-size="9" fill="#64748b">Pedidos</text>
+  <text x="495" y="98" font-family="monospace" font-size="18" font-weight="bold" fill="#f1f5f9">37</text>
+  <text x="495" y="112" font-family="sans-serif" font-size="8" fill="#f59e0b">⏳ 5 pendientes</text>
+
+  <rect x="625" y="58" width="130" height="60" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <text x="640" y="78" font-family="sans-serif" font-size="9" fill="#64748b">Stock Bajo</text>
+  <text x="640" y="98" font-family="monospace" font-size="18" font-weight="bold" fill="#ef4444">8</text>
+  <text x="640" y="112" font-family="sans-serif" font-size="8" fill="#ef4444">⚠ Requiere acción</text>
+
+  <!-- Product Grid Title -->
+  <text x="195" y="145" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f1f5f9">Productos Destacados</text>
+  <rect x="195" y="150" width="40" height="2" rx="1" fill="#10b981"/>
+
+  <!-- Product Card 1 -->
+  <rect x="190" y="162" width="170" height="140" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <rect x="190" y="162" width="170" height="80" rx="8" fill="#1a2035"/>
+  <text x="270" y="210" font-family="sans-serif" font-size="28" text-anchor="middle" fill="#94a3b8">🔨</text>
+  <text x="205" y="258" font-family="sans-serif" font-size="10" font-weight="bold" fill="#f1f5f9">Martillo Profesional</text>
+  <text x="205" y="272" font-family="sans-serif" font-size="9" fill="#64748b">Herramientas · Stock: 45</text>
+  <text x="205" y="290" font-family="monospace" font-size="12" font-weight="bold" fill="#10b981">$24.99</text>
+  <rect x="305" y="280" width="45" height="18" rx="9" fill="#10b981" opacity="0.15"/>
+  <text x="312" y="292" font-family="sans-serif" font-size="8" fill="#10b981">En stock</text>
+
+  <!-- Product Card 2 -->
+  <rect x="375" y="162" width="170" height="140" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <rect x="375" y="162" width="170" height="80" rx="8" fill="#1a2035"/>
+  <text x="460" y="210" font-family="sans-serif" font-size="28" text-anchor="middle" fill="#94a3b8">🔧</text>
+  <text x="390" y="258" font-family="sans-serif" font-size="10" font-weight="bold" fill="#f1f5f9">Taladro Inalámbrico</text>
+  <text x="390" y="272" font-family="sans-serif" font-size="9" fill="#64748b">Eléctrico · Stock: 12</text>
+  <text x="390" y="290" font-family="monospace" font-size="12" font-weight="bold" fill="#10b981">$189.00</text>
+  <rect x="490" y="280" width="45" height="18" rx="9" fill="#f59e0b" opacity="0.15"/>
+  <text x="497" y="292" font-family="sans-serif" font-size="8" fill="#f59e0b">Bajo</text>
+
+  <!-- Product Card 3 -->
+  <rect x="560" y="162" width="170" height="140" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <rect x="560" y="162" width="170" height="80" rx="8" fill="#1a2035"/>
+  <text x="645" y="210" font-family="sans-serif" font-size="28" text-anchor="middle" fill="#94a3b8">🪛</text>
+  <text x="575" y="258" font-family="sans-serif" font-size="10" font-weight="bold" fill="#f1f5f9">Set Destornilladores</text>
+  <text x="575" y="272" font-family="sans-serif" font-size="9" fill="#64748b">Herramientas · Stock: 78</text>
+  <text x="575" y="290" font-family="monospace" font-size="12" font-weight="bold" fill="#10b981">$34.50</text>
+  <rect x="675" y="280" width="45" height="18" rx="9" fill="#10b981" opacity="0.15"/>
+  <text x="682" y="292" font-family="sans-serif" font-size="8" fill="#10b981">En stock</text>
+
+  <!-- AI Chat Panel -->
+  <rect x="760" y="58" width="130" height="432" rx="8" fill="#13182a" stroke="#10b981" stroke-width="1" opacity="0.9"/>
+  <rect x="760" y="58" width="130" height="36" rx="8" fill="#10b981" opacity="0.1"/>
+  <text x="775" y="72" font-family="monospace" font-size="9" fill="#10b981">✦ Gemini AI</text>
+  <text x="775" y="85" font-family="sans-serif" font-size="8" fill="#64748b">Asistente de Inventario</text>
+  <!-- Chat messages -->
+  <rect x="770" y="105" width="110" height="40" rx="6" fill="#1e2433"/>
+  <text x="778" y="120" font-family="sans-serif" font-size="7" fill="#94a3b8">¿Qué productos</text>
+  <text x="778" y="132" font-family="sans-serif" font-size="7" fill="#94a3b8">necesitan restock?</text>
+  <rect x="770" y="155" width="110" height="55" rx="6" fill="#10b981" opacity="0.1" stroke="#10b981" stroke-width="0.5"/>
+  <text x="778" y="170" font-family="sans-serif" font-size="7" fill="#10b981">Taladros (12 uds)</text>
+  <text x="778" y="182" font-family="sans-serif" font-size="7" fill="#10b981">Tornillos M8 (5 uds)</text>
+  <text x="778" y="194" font-family="sans-serif" font-size="7" fill="#10b981">Pintura blanca (3)</text>
+  <text x="778" y="206" font-family="sans-serif" font-size="7" fill="#64748b">Recomiendo pedir...</text>
+  <!-- JWT Badge -->
+  <rect x="770" y="440" width="110" height="40" rx="6" fill="#1e2433" stroke="#6366f1" stroke-width="0.5"/>
+  <text x="778" y="456" font-family="monospace" font-size="8" fill="#6366f1">🔐 JWT Auth</text>
+  <text x="778" y="470" font-family="sans-serif" font-size="7" fill="#64748b">Sesión activa</text>
+
+  <!-- Table -->
+  <rect x="190" y="318" width="555" height="160" rx="8" fill="url(#card)" stroke="#1e2433" stroke-width="1"/>
+  <text x="205" y="338" font-family="sans-serif" font-size="11" font-weight="bold" fill="#f1f5f9">Últimos Pedidos</text>
+  <rect x="190" y="345" width="555" height="1" fill="#1e2433"/>
+  <!-- Table header -->
+  <text x="205" y="362" font-family="sans-serif" font-size="9" fill="#64748b">ID</text>
+  <text x="250" y="362" font-family="sans-serif" font-size="9" fill="#64748b">Cliente</text>
+  <text x="380" y="362" font-family="sans-serif" font-size="9" fill="#64748b">Producto</text>
+  <text x="510" y="362" font-family="sans-serif" font-size="9" fill="#64748b">Total</text>
+  <text x="570" y="362" font-family="sans-serif" font-size="9" fill="#64748b">Estado</text>
+  <rect x="190" y="367" width="555" height="1" fill="#1e2433"/>
+  <!-- Rows -->
+  <text x="205" y="383" font-family="monospace" font-size="9" fill="#94a3b8">#1042</text>
+  <text x="250" y="383" font-family="sans-serif" font-size="9" fill="#f1f5f9">Carlos Mendez</text>
+  <text x="380" y="383" font-family="sans-serif" font-size="9" fill="#94a3b8">Taladro Inalámbrico</text>
+  <text x="510" y="383" font-family="monospace" font-size="9" fill="#f1f5f9">$189.00</text>
+  <rect x="568" y="373" width="55" height="16" rx="8" fill="#10b981" opacity="0.15"/>
+  <text x="576" y="384" font-family="sans-serif" font-size="8" fill="#10b981">Entregado</text>
+
+  <text x="205" y="403" font-family="monospace" font-size="9" fill="#94a3b8">#1041</text>
+  <text x="250" y="403" font-family="sans-serif" font-size="9" fill="#f1f5f9">Ana García</text>
+  <text x="380" y="403" font-family="sans-serif" font-size="9" fill="#94a3b8">Set Destornilladores</text>
+  <text x="510" y="403" font-family="monospace" font-size="9" fill="#f1f5f9">$34.50</text>
+  <rect x="568" y="393" width="55" height="16" rx="8" fill="#f59e0b" opacity="0.15"/>
+  <text x="573" y="404" font-family="sans-serif" font-size="8" fill="#f59e0b">En camino</text>
+
+  <text x="205" y="423" font-family="monospace" font-size="9" fill="#94a3b8">#1040</text>
+  <text x="250" y="423" font-family="sans-serif" font-size="9" fill="#f1f5f9">Luis Torres</text>
+  <text x="380" y="423" font-family="sans-serif" font-size="9" fill="#94a3b8">Martillo Profesional</text>
+  <text x="510" y="423" font-family="monospace" font-size="9" fill="#f1f5f9">$24.99</text>
+  <rect x="568" y="413" width="55" height="16" rx="8" fill="#6366f1" opacity="0.15"/>
+  <text x="575" y="424" font-family="sans-serif" font-size="8" fill="#6366f1">Procesando</text>
+
+  <!-- Tech badges bottom -->
+  <text x="205" y="460" font-family="monospace" font-size="8" fill="#64748b">Stack:</text>
+  <rect x="235" y="450" width="65" height="16" rx="4" fill="#1e2433" stroke="#334155" stroke-width="0.5"/>
+  <text x="242" y="461" font-family="monospace" font-size="7" fill="#94a3b8">ASP.NET Core</text>
+  <rect x="308" y="450" width="45" height="16" rx="4" fill="#1e2433" stroke="#334155" stroke-width="0.5"/>
+  <text x="315" y="461" font-family="monospace" font-size="7" fill="#94a3b8">Angular</text>
+  <rect x="361" y="450" width="30" height="16" rx="4" fill="#1e2433" stroke="#334155" stroke-width="0.5"/>
+  <text x="368" y="461" font-family="monospace" font-size="7" fill="#94a3b8">JWT</text>
+  <rect x="399" y="450" width="25" height="16" rx="4" fill="#1e2433" stroke="#334155" stroke-width="0.5"/>
+  <text x="405" y="461" font-family="monospace" font-size="7" fill="#94a3b8">DDD</text>
+  <rect x="432" y="450" width="30" height="16" rx="4" fill="#1e2433" stroke="#10b981" stroke-width="0.5"/>
+  <text x="438" y="461" font-family="monospace" font-size="7" fill="#10b981">MCP</text>
+</svg>
