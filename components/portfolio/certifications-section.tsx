@@ -21,7 +21,7 @@ const certifications: Certification[] = [
     badge: "aws",
     description: "Certificación en fundamentos de almacenamiento en la nube con Amazon S3.",
     featured: true,
-    fileUrl: "/certificates/AWS S3 introduccion.jpeg",
+    fileUrl: "/certificates/aws-s3-introduccion.jpeg",
   },
   {
     title: "Java Foundations",
@@ -29,7 +29,7 @@ const certifications: Certification[] = [
     year: "2024",
     badge: "oracle",
     description: "Dominio de conceptos fundamentales de Java, POO y estructuras de datos.",
-    fileUrl: "/certificates/CertificadoJava.pdf",
+    fileUrl: "/certificates/certificado-java.pdf",
   },
   {
     title: "SOLID Principles in C# and .NET",
@@ -45,7 +45,7 @@ const certifications: Certification[] = [
     year: "2025",
     badge: "bigschool",
     description: "Iniciación en el desarrollo de soluciones integrando Inteligencia Artificial.",
-    fileUrl: "/certificates/Certificado Desarrolo Con IA.pdf",
+    fileUrl: "/certificates/certificado-desarrollo-con-ia.pdf",
   },
   {
     title: "Desarrollo Web Responsivo",
@@ -53,7 +53,7 @@ const certifications: Certification[] = [
     year: "2024",
     badge: "freecodecamp",
     description: "Diseño de interfaces web modernas y adaptables a cualquier dispositivo.",
-    fileUrl: "/certificates/Certificado desarrollo web responsivo.pdf",
+    fileUrl: "/certificates/certificado-desarrollo-web-responsivo.pdf",
   },
   {
     title: "Docker Certification",
@@ -61,7 +61,7 @@ const certifications: Certification[] = [
     year: "2024",
     badge: "docker",
     description: "Contenerización de aplicaciones y gestión de entornos de desarrollo.",
-    fileUrl: "/certificates/Docker.pdf",
+    fileUrl: "/certificates/docker.pdf",
   },
   {
     title: "Google Gemini AI",
@@ -69,7 +69,7 @@ const certifications: Certification[] = [
     year: "2025",
     badge: "google",
     description: "Exploración y aplicación de modelos Gemini en el desarrollo de software.",
-    fileUrl: "/certificates/Gemini.pdf",
+    fileUrl: "/certificates/gemini.pdf",
   },
   {
     title: "Front-End Development with React",
@@ -77,7 +77,7 @@ const certifications: Certification[] = [
     year: "2024",
     badge: "react",
     description: "Desarrollo de componentes modernos y gestión de estado con React.",
-    fileUrl: "/certificates/Front-End (React).png",
+    fileUrl: "/certificates/front-end-react.png",
   },
   {
     title: "Node.js Backend Development",
@@ -85,7 +85,7 @@ const certifications: Certification[] = [
     year: "2024",
     badge: "node",
     description: "Construcción de APIs escalables y servicios de backend con Node.js.",
-    fileUrl: "/certificates/Node.png",
+    fileUrl: "/certificates/node.png",
   },
   {
     title: "Python Programming",
@@ -93,7 +93,7 @@ const certifications: Certification[] = [
     year: "2023",
     badge: "python",
     description: "Fundamentos de programación y automatización con Python.",
-    fileUrl: "/certificates/Phyton.png",
+    fileUrl: "/certificates/python.png",
   },
   {
     title: "Modern CSS & Layouts",
@@ -101,7 +101,7 @@ const certifications: Certification[] = [
     year: "2023",
     badge: "css",
     description: "Dominio de Flexbox, Grid y animaciones avanzadas con CSS.",
-    fileUrl: "/certificates/Css.png",
+    fileUrl: "/certificates/css.png",
   },
 ]
 
